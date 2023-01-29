@@ -1,0 +1,276 @@
+/* Colours 
+https://coolors.co/palette/102542-f87060-cdd7d6-b3a394-ffffff
+
+#102542, #f87060, #cdd7d6, #b3a394, #ffffff
+
+#463e36
+#8d406a
+#131e2e blue
+*/
+
+
+/*Initial reset*/
+*{
+    margin: 0;
+    font-family: 'Noto Sans Display', sans-serif;
+
+}
+
+body{
+    background-color: #eee1d5;
+    text-align: justify;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+/*Navbar*/
+
+.navbar{
+    background-color: #463e36;
+    color:white;
+    display: flex;
+    flex-direction: row; /*default*/
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 520;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    background-color:#ad6d90;
+    border-radius: 5px;
+}
+
+
+.navbar img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+/*Home card*/
+
+.home-card{
+    padding: 100px;
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 800px;
+    height: 300px;
+    background-color: rgba(172, 131, 143, 0.2);
+    
+}
+
+.home-card p{
+ margin-top: 30px;
+ margin-bottom: 30px;
+ width: 300px;
+}
+
+
+.home-card img{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+a{
+    color: white;
+}
+
+/* Technologies */
+
+.title{
+    padding: 40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.tech-cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 80px;
+    padding-top: 30px;
+}
+
+.tech-card{
+    padding: 30px;
+    width: 300px;
+    height: 400px;
+    background-color:  rgba(172, 131, 143, 0.2) ;
+    margin-top: 20px;
+}
+
+.tech-card p{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.tech-card h2{
+    margin-bottom: 8px;
+}
+
+.tech-card img{
+    width: 130px;
+    height: auto;
+    padding: 30px;
+
+}
+
+/*Design*/
+
+.design-container{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+.design-container .btn{
+    width: 280px;
+}
+
+.design-container iframe{
+    padding: 50px;
+}
+
+.design-items{
+    padding: 10px;
+}
+
+
+
+/*Merch*/
+
+.merch-cards-container{
+    margin-left: 100px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.merch-card{
+    width: 300px;
+    height: 300px;
+}
+
+.merch-card img:hover{
+    opacity: 0.8;
+    border: solid #102542;
+}
+
+/*Events*/
+
+.event-container{
+    text-align: center;
+}
+
+.events-card-container{
+    display: flex;
+    padding: 40px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.event-card{
+    width: 400px;
+    height: 400px;
+}
+
+.event-card img{
+    width: 400px;
+    object-fit: cover;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.date{
+    margin-top: 20px;
+    background-color: #102542;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.date:hover{
+    cursor: pointer;
+    background-color: #405877;
+}
+
+/*Footer*/
+
+.footer-container{
+    background-color: #101720;
+    color:white;
+    display: flex;
+    flex-direction: row; /*default*/
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.footer-container p{
+    justify-content: flex-start;
+}
+.footer-nav ul {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.footer-nav a{
+    text-decoration: none;
+}
+
+/*Buttons*/
+
+.btn{
+
+    background-color: #102542;
+    border-color: #102542;
+    color: white;
+    font-weight: 550;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #405877;
+    border-color:#405877;
+}
+
+
+
+
+
+
+
